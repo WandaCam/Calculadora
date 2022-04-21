@@ -1,0 +1,70 @@
+input[type="text"],
+  select
+ {
+    width: 80%;
+    padding: 12px;
+    border: 2px solid rgb(19, 10, 10);
+    border-radius: 4px;
+    resize: vertical;
+    background-color: rgb(230, 255, 247);
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; ;
+  }
+  
+  input[type="submit"],
+  input[type="reset"] {
+    background-color: #6eeee3;
+    color: rgb(255, 255, 255);
+    padding: 12px 20px;
+    border: black;
+    border-radius: 4px;
+    cursor: auto;
+    float: right;
+  }
+  
+  input[type="submit"]:hover,
+  input[type="reset"]:hover {
+    background-color: #131212;
+  }
+  
+  
+.container {
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .col-25,
+    .col-75,
+    input[type="submit"],
+    input[type="reset"] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+body{
+    background-color: #f0f0f0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

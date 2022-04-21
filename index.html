@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1 align="center">CALCULADORA DE PESO</h1>
+        <br>
+
+    </header>
+    <form>
+        <div class="container">
+            <div class="row">
+                <div class="col-25">
+                    <label for="altu">Altura:</label><br>
+                </div>
+                <div class="col-75">
+                    <input type="text" name="altu" maxlength="200" size="7" required placeholder="Altura">
+                </div>    
+            </div>         
+        
+       
+        <br>
+        <label for="edad">Edad:</label><br>
+        <select  name="edad">
+            <option value="0-10">0-10 años</option>
+            <option value="11-20">11-20 años</option>
+            <option value="21-30">21-30 años</option>
+            <option value="31-40">31-40 años</option>
+            <option value="41+">41 o más</option>
+          </select>
+          <br><br>
+
+          <label for="gen">Genero:</label><br>
+        <select  name="gen">
+            <option value="f">Femenino</option>
+            <option value="m">Masculino</option>
+          </select>
+          <br><br>
+
+          <div class="row">
+            <div class="col-25">
+                <label for="muñe">Circuferencia de muñeca:</label><br>
+            </div>
+            <div class="col-75">
+                <input type="text" name="muñe" maxlength="30" size="7" required placeholder="cirf. muñeca">
+            </div>    
+        </div>
+        <br><br>
+
+          <input type="reset" value ="limpiar">
+          <input type="submit" value="enviar">
+          </div>
+
+    </form>
+    
+</body>
+</html>
